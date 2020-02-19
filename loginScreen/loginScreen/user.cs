@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace loginScreen
 {
-    class user
+    class User
     {
         public string Name { get; set; }
         public string Password { get; set; }
-        public Type UserType  { get; set; }
+        public string UserType  { get; set; }
 
-        public enum Type
+        
+
+        public User(string name, string password, string type)
         {
-            Admin = 0,
-            Worker = 1
+            this.Name = name;
+            this.Password = password;
+            this.UserType = type;
         }
-
         bool checkPassword(string password)
         {
             if (password == this.Password)

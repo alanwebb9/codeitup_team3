@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace loginScreen
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
 
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -31,29 +31,64 @@ namespace loginScreen
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            List<User> Users = new List<User>();
             using (StreamReader sr = new StreamReader("data.txt")) 
             {
-                
+                string line;
+                while ((line = sr.ReadLine())!= null)
+                {
+                    string[] items = line.Split(',');
+                    Users.Add(new User(items[0], items[1], items[2]));
+                }
             }
 
 
-                string passAttempt = txtPassword.Text;
+            bool accepted = false;
+            string passAttempt = txtPassword.Text;
             string nameAttempt = txtUsername.Text;
-            if (password == passAttempt&& username == nameAttempt)
+            if(accepted == false)
             {
-                MessageBox.Show ("All Gucci");
+                userError.Visible = false;
+                passwordError.Visible = false;
+            }
+            foreach (var item in Users)
+            {
+                if (nameAttempt == item.Name)
+                {
+                    if (passAttempt == item.Password)
+                    {
+
+                        accepted = true;
+                        break;
+                    }
+                    else if (passAttempt == "")
+                        ;
+                    else if (passAttempt != item.Password && passAttempt != "")
+                    {
+                        passwordError.Visible = true;
+                    }
+                        
+                        
+                }
+                else if (nameAttempt == "")
+                    ;
+                else if (nameAttempt != item.Name && passwordError.Visible != true)
+                    userError.Visible = true;
+
+            }
+
+            if (accepted)
+            {
+                welcomeScreen welcome = new welcomeScreen();
+                welcome.Show();
+                this.Close();
             }
             
-            else if (password != passAttempt && username == nameAttempt)
-            {
-                MessageBox.Show("Incorrect Password");
-            }
+        }
 
-            else if (username != nameAttempt && nameAttempt != "")
-            {
-                MessageBox.Show("Username not found");
-            }
-
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

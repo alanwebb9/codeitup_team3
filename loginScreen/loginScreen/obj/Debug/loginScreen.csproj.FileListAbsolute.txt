@@ -7,3 +7,4 @@ C:\Users\Jono\Desktop\loginScreen\loginScreen\obj\Debug\loginScreen.Properties.R
 C:\Users\Jono\Desktop\loginScreen\loginScreen\obj\Debug\loginScreen.csproj.GenerateResource.cache
 C:\Users\Jono\Desktop\loginScreen\loginScreen\obj\Debug\loginScreen.exe
 C:\Users\Jono\Desktop\loginScreen\loginScreen\obj\Debug\loginScreen.pdb
+C:\Users\Jono\Desktop\loginScreen\loginScreen\obj\Debug\loginScreen.Login.resources

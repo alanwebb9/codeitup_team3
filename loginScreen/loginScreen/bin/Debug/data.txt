@@ -1,4 +1,4 @@
-username,password,admin
+username,password,type
 kev123,kpass,admin
 mary456,mpass,worker
 ivan789,ipass,worker
