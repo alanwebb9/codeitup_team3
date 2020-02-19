@@ -1,0 +1,4 @@
+username,password,type
+kev123,kpass,1
+mary456,mpass,0
+ivan789,ipass,0
