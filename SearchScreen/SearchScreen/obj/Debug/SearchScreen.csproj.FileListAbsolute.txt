@@ -8,3 +8,13 @@ C:\Users\Majella\Desktop\Hackathon\SearchScreen\SearchScreen\obj\Debug\SearchScr
 C:\Users\Majella\Desktop\Hackathon\SearchScreen\SearchScreen\obj\Debug\SearchScreen.pdb
 C:\Users\Majella\Desktop\Hackathon\SearchScreen\SearchScreen\obj\Debug\SearchScreen.welcomeScreen.resources
 C:\Users\Majella\Desktop\Hackathon\SearchScreen\SearchScreen\obj\Debug\SearchScreen.searchForm.resources
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\bin\Debug\SearchScreen.exe.config
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\bin\Debug\SearchScreen.exe
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\bin\Debug\SearchScreen.pdb
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\obj\Debug\SearchScreen.csprojAssemblyReference.cache
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\obj\Debug\SearchScreen.welcomeScreen.resources
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\obj\Debug\SearchScreen.searchForm.resources
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\obj\Debug\SearchScreen.Properties.Resources.resources
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\obj\Debug\SearchScreen.csproj.GenerateResource.cache
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\obj\Debug\SearchScreen.exe
+C:\Users\Brian\Documents\GitHub\codeitup_team3\SearchScreen\SearchScreen\obj\Debug\SearchScreen.pdb
